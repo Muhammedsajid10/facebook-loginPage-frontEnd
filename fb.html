@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <link rel="stylesheet" href="fb.css" type="text/css">
+</head>
+<body>
+    <div class="container-div">
+        <div class="header">
+            <div class="logo">
+                <a class="fblogo-text" href="fb.html">facebook</a>
+            </div>
+            <div class="login">
+                <form class="loign-form">
+                <table class="logintab">
+                    <tbody>
+                        <tr>
+                            <td><label class="login-label">Email or phone</label></td>
+                            <td><label class="login-label">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td ><input class="loginbtn" type="submit" value="login"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="forgot">Forgotten account?</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </form>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="left-section">
+                <p class="main-body-para">Facebook helps you connect and share with the <br>peaple in your life</p>
+                <img class="leftimg" src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-icon-black-png.png">
+            </div>
+            <div class="right-section">
+                <h1 class="right-sec-h1">Create an account</h1>
+                <h4 class="right-sec-h4">it's quick and easy.</h4>
+                <form id="signup-form">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td><input name="fname" class="name" type="text"  placeholder="First name"></td>
+                            <td><input name="sname" class="name  sname" type="text" placeholder="Surname"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input class="mbleml  name" name="emailAdd" placeholder="Mobile number or email address">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input class="password   name" name="password" placeholder="New password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="birt"><label class="birth">Birthday</label></td>
+                        </tr>
+                        <tr>
+                            <td class="dobDropdown">
+                                <select class="Day" name="day">
+                                    <option value="">Day</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                                <select class="month" name="month">
+                                    <option value="">Month</option>
+                                    <option value="jan">jan</option>
+                                    <option value="feb">feb</option>
+                                </select>
+                                <select class="year" name="year">
+                                    <option value="">Year</option>
+                                    <option value="1999">1999</option>
+                                    <option value="2000">2000</option>
+                                </select>
+                            </td>
+                            <td>
+                                <button class="butt1">?</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="gend">
+                                <p>Gender</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="gen">
+                                <input type="radio" id="Female" name="gender" value="Female">
+                                <label for="Female">Female</label>
+                                <input type="radio" id="Male" name="gender" value="Male">
+                                <label for="Male">Male</label>
+                                <input type="radio" id="Custom" name="gender" value="Custom">
+                                <label class="custom" for="Custom">Custom</label>
+                                <button class="butt2">?</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="terms">By clicking Sign Up you agree to our Terms, Data Policy<br> and Cookie Policy. You may receive SMS notification from<br>us and can opt out at any time. </p>
+                            </td>
+                        </tr>
+                        <td>
+                            <tr>
+                                <td ><input class="signup" type="submit" value="Sign Up"></td>
+                            </tr>
+                        </td>
+                    </tbody>
+                </table>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.2.js" integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
